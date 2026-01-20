@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Keval’s GitHub Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <h1>Hi, I’m Keval 👋</h1>
+    <p>This is my first GitHub Pages website.</p>
+
+    <h2>Projects</h2>
+    <ul>
+      <li>Task Manager CLI</li>
+      <li>Skin Lesion Classification</li>
+      <li>Pose Estimation Pipeline</li>
+    </ul>
+
+    <button id="btn">Click me</button>
+    <p id="msg"></p>
+  </div>
+
+  <script>
+    const btn = document.getElementById("btn");
+    const msg = document.getElementById("msg");
+    btn.addEventListener("click", () => {
+      msg.textContent = "✅ Button works! Next step: push to GitHub.";
+    });
+  </script>
+</body>
+</html>
